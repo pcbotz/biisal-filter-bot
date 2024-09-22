@@ -17,7 +17,7 @@ API_ID = int(environ.get('API_ID', '21136840'))
 API_HASH = environ.get('API_HASH', '0f2ff6ef89fcd5ba226c3f40342f5319')
 BOT_TOKEN = environ.get('BOT_TOKEN', '6929065058:AAG06ylBv4kiqH7w5bRMncaoDcWMalxWMZE')
 
-ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '5397984467').split()]
+ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '6719882299').split()]
 USERNAME = environ.get('USERNAME', "https://telegram.me/PCADMINOFFICIALBOT")
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002113853127'))
 MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/pcmoviegroup')
